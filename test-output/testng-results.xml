@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24019" started-at="2017-06-20T04:51:41Z" finished-at="2017-06-20T04:52:05Z">
+    <groups>
+      <group name="demo">
+        <method signature="Interviewer.validateInterviewer()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateInterviewer" class="com.interview.test.Interviewer"/>
+        <method signature="Interviewer.validateLogin()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateLogin" class="com.interview.test.Interviewer"/>
+        <method signature="Interviewer.validateBalance()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateBalance" class="com.interview.test.Interviewer"/>
+        <method signature="Interviewer.validateSpend()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateSpend" class="com.interview.test.Interviewer"/>
+        <method signature="Interviewer.validateTransactions()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateTransactions" class="com.interview.test.Interviewer"/>
+      </group> <!-- demo -->
+    </groups>
+    <test name="Default test" duration-ms="24019" started-at="2017-06-20T04:51:41Z" finished-at="2017-06-20T04:52:05Z">
+      <class name="com.interview.test.Interviewer">
+        <test-method status="PASS" signature="configure()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="configure" is-config="true" duration-ms="565" started-at="2017-06-20T10:21:40Z" finished-at="2017-06-20T10:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="validateInterviewer()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateInterviewer" duration-ms="7483" started-at="2017-06-20T10:21:41Z" finished-at="2017-06-20T10:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInterviewer -->
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateLogin" duration-ms="4987" started-at="2017-06-20T10:21:48Z" finished-at="2017-06-20T10:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="validateBalance()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateBalance" duration-ms="4437" started-at="2017-06-20T10:21:53Z" depends-on-methods="com.interview.test.Interviewer.validateLogin" finished-at="2017-06-20T10:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBalance -->
+        <test-method status="PASS" signature="validateSpend()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateSpend" duration-ms="1713" started-at="2017-06-20T10:21:58Z" depends-on-methods="com.interview.test.Interviewer.validateLogin" finished-at="2017-06-20T10:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSpend -->
+        <test-method status="PASS" signature="validateTransactions()[pri:0, instance:com.interview.test.Interviewer@33931942]" name="validateTransactions" duration-ms="5362" started-at="2017-06-20T10:22:00Z" depends-on-methods="com.interview.test.Interviewer.validateLogin" finished-at="2017-06-20T10:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTransactions -->
+      </class> <!-- com.interview.test.Interviewer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
